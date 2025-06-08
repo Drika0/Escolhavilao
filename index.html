@@ -1,0 +1,62 @@
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/escolha.js" defer></script>
+    <link rel="icon" href="image/fundo.jpg" type="image/png">
+
+</head>
+<body>
+    <header>Escolha seu personagem:</header>
+
+    <main>
+             <a href="tutorial.html">
+                <button id="btn">Entender o jogo</button>
+            </a>
+        <article>
+            <section class="card">
+                <img src="image/freddy.jpg" alt="Freddy Krueger">
+                <h2>Freddy Krueger</h2>
+                <p>Freddy é um assassino de crianças da fictícia Springwood.</p>
+                <span>Força 2099</span>
+                <button onclick="escolherPersonagem('Freddy Krueger')">Clique Aqui</button>
+            </section>
+
+            <section class="card">
+                <img src="image/jason.jpg" alt="Jason Voorhees">
+                <h2>Jason Voorhees</h2>
+                <p>Jason é um assassino monstruoso conhecido por sua máscara de hóquei.</p>
+                <span>Força 2098</span>
+                <button onclick="escolherPersonagem('Jason Voorhees')">Clique Aqui</button>
+            </section>
+
+            <section class="card">
+                <img src="image/michael.jpg" alt="Michael Myers">
+                <h2>Michael Myers</h2>
+                <p>Michael é um assassino mascarado enigmático.</p>
+                <span>Força 2050</span>
+                <button onclick="escolherPersonagem('Michael Myers')">Clique Aqui</button>
+            </section>
+
+            <section class="card">
+                <img src="image/morte.jpg" alt="Ghostface">
+                <h2>Ghostface</h2>
+                <p>Ghostface liga para suas vítimas antes de atacá-las.</p>
+                <span>Força 2000</span>
+                <button onclick="escolherPersonagem('Ghostface')">Clique Aqui</button>
+            </section>
+
+
+        </article>
+
+
+        <footer>@Drika</footer>
+
+    </main>
+    <div id="tela-preta"></div>
+<audio id="somClique" src="sounds/clique.wav" preload="auto"></audio>
+
+</body>
+</html>
